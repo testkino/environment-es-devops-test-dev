@@ -73,7 +73,6 @@ cat jx-requirements.yml
 
 # TODO hack until we fix boot to do this too!
 helm init --client-only
-helm repo add jenkins-x https://storage.googleapis.com/chartmuseum.jenkins-x.io
 
 jx step bdd \
     --use-revision \
